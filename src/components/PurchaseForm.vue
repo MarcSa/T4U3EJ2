@@ -143,7 +143,7 @@ const onSubmit = handleSubmit((formValues) => {
                 v-for="(field, index) in fields"
                 :key="field.key"
                 :index="index"
-                :product-count="fields.length"
+                :productCount="fields.length"
                 @delete="remove($event)"
             />
             <div class="addProductBtnContainer mb-3">
