@@ -85,7 +85,7 @@ const onSubmit = handleSubmit((formValues) => {
 </script>
 
 <template>
-    <form class="card px-3 py-4 bg-white form-content" @submit.prevent="onSubmit">
+    <form class="card px-3 py-4 bg-white form-content mb-5" @submit.prevent="onSubmit">
         <h2 class="mb-2">Primer formulario</h2>
         <div class="mb-2">
             <label for="name" class="mb-2">Nombre:</label>
